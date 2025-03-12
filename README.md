@@ -76,7 +76,7 @@ sudo rm /etc/nginx/sites-enabled/default
 
 ### 第二步
 
-- 至https://www.mongodb.com/home註冊帳號。
+- 至```https://www.mongodb.com/home```註冊帳號。
 
 - 登入後進入database點擊Create，建立任一種皆沒有關係，本次專題使用Share中的Google cloud region選擇Taiwan，Cluster Name為Gamebook。
 
