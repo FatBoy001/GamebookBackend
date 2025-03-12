@@ -76,7 +76,7 @@ sudo rm /etc/nginx/sites-enabled/default
 
 ### 第二步
 
-- 至```https://www.mongodb.com/home```註冊帳號。
+- 至<https://www.mongodb.com/home>註冊帳號。
 
 - 登入後進入database點擊Create，建立任一種皆沒有關係，本次專題使用Share中的Google cloud region選擇Taiwan，Cluster Name為Gamebook。
 
@@ -85,7 +85,7 @@ sudo rm /etc/nginx/sites-enabled/default
 - 點擊Database Access並點擊add new database user，於Password Authentication下輸入用戶名稱與密碼。
 
 - 完成後進入Database點擊剛建立好的Database，點擊connect，點擊connect your application，選擇Node.js與4.1 or later，並儲存下方連接，其格式為：
-  	mongodb+srv://A1083365:<password>@gamebook.zmyoydr.mongodb.net/?retryWrites=true&w=majority
+  	```mongodb+srv://A1083365:<password>@gamebook.zmyoydr.mongodb.net/?retryWrites=true&w=majority```
   	其中A1083365:<password>，冒號前面為Database Access中所建立的用戶名稱後方為密碼，後續將用於MCV程式連接。
 
 - 點擊Database並點擊上面所建立的database名稱為Gamebook，點擊Collections，下方頁面中游標指向Gamebook，點擊旁邊的加號以新增Collection。
@@ -101,9 +101,9 @@ sudo rm /etc/nginx/sites-enabled/default
 
 ### 第三步
 
-- 至freenom(網址：https://www.freenom.com/zu/index.html?lang=zu)申請域名gamebook.ga選擇後，需註冊帳號，註冊完成之後購買。
+- 至freenom(網址：<https://www.freenom.com/zu/index.html?lang=zu>)申請域名gamebook.ga選擇後，需註冊帳號，註冊完成之後購買。
 
-- 至cloudflare(網址：https://www.cloudflare.com/zh-tw/)註冊帳號，登入後於Websites點擊Add a Site，於Enter your site下輸入網域名稱gamebook.ga，必須為freenom所申請的域名，或其他網站。
+- 至cloudflare(網址：<https://www.cloudflare.com/zh-tw/>)註冊帳號，登入後於Websites點擊Add a Site，於Enter your site下輸入網域名稱gamebook.ga，必須為freenom所申請的域名，或其他網站。
 
   (以其他方法皆可，本專案最終網域名稱為gamebook.ga)
 
