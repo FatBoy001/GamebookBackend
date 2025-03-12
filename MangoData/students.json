@@ -1,0 +1,95 @@
+[{
+  "_id": {
+    "$oid": "6307636b0626fa2cac76b52c"
+  },
+  "userName": "fish",
+  "email": "f@q",
+  "password": "123",
+  "school": "高雄大學",
+  "Class": "3年2班"
+},{
+  "_id": {
+    "$oid": "6307a49e0626fa2cac76b572"
+  },
+  "userName": "peter",
+  "email": "af@w43.com",
+  "password": "Aaaa1234",
+  "school": "高雄大學",
+  "Class": "3年2班"
+},{
+  "_id": {
+    "$oid": "631b458509d95ad74dbf6d8e"
+  },
+  "userName": "feple",
+  "email": "s@s",
+  "password": "12345",
+  "school": "高雄大學",
+  "Class": "2年4班"
+},{
+  "_id": {
+    "$oid": "6325cbe524bab86e8004317b"
+  },
+  "userName": "陳楨宜",
+  "email": "a1083359@mail.nuk.edu.tw",
+  "password": "Aaaa1234",
+  "school": "高雄大學",
+  "Class": "1年1班"
+},{
+  "_id": {
+    "$oid": "63948dcaa90f67f4a456c7fa"
+  },
+  "userName": "iris",
+  "email": "a1083344@mail.nuk.edu.tw",
+  "password": "Az1234567",
+  "school": "高雄大學",
+  "Class": "4年2班",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6395a333a90f67f4a456c87f"
+  },
+  "userName": "郭子銘",
+  "email": "bb@gmail.com",
+  "password": "Aaaa1234",
+  "school": "高雄大學",
+  "Class": "1年1班",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6395a49797ff743060a77803"
+  },
+  "userName": "iris",
+  "email": "a1083312@mail.nuk.edu.tw",
+  "password": "Az1234567",
+  "school": "高雄大學",
+  "Class": "1年2班"
+},{
+  "_id": {
+    "$oid": "6395a4db97ff743060a77805"
+  },
+  "userName": "王蘊禪",
+  "email": "a1083360@mail.nuk.edu.tw",
+  "password": "Az1234567",
+  "school": "高雄大學",
+  "Class": "1年1班"
+},{
+  "_id": {
+    "$oid": "63972353a90f67f4a456cba2"
+  },
+  "userName": "Jun",
+  "email": "ZzzZzzz",
+  "password": "Az1234567",
+  "school": "史來澤霖",
+  "Class": "鋪樓及",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63a69ccba90f67f4a456cbc6"
+  },
+  "userName": "iris",
+  "email": "a@q",
+  "password": "Az1234567",
+  "school": "高雄大學",
+  "Class": "1年1掰",
+  "__v": 0
+}]

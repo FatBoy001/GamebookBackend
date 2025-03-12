@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "63025f5c13d11f23efa550c0"
+  },
+  "userName": "Hi",
+  "email": "a1083365@mail.nuk.edu.tw",
+  "password": "123",
+  "school": "高雄大學"
+},{
+  "_id": {
+    "$oid": "6327115530255f1077ec70f9"
+  },
+  "userName": "aee",
+  "email": "bb@gmail.com",
+  "password": "yza0ev",
+  "school": "高雄大學"
+},{
+  "_id": {
+    "$oid": "63944063e036aa58a045da34"
+  },
+  "userName": "iris",
+  "email": "a1083359@mail.nuk.edu.tw",
+  "password": "Az1234567",
+  "school": "高雄大學",
+  "__v": 0
+}]

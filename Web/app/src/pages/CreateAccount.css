@@ -1,0 +1,48 @@
+.insertContainer{
+    height: 95vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+}
+.insertNail{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    background-color: rgb(32, 32, 35);
+    border-radius: 10px;
+}
+.nailContent{
+    margin: 10px 0;
+    color:white;
+    width: 100%;
+}
+#nailTitle{
+    color:white;
+    padding: 0 0 20px 0;
+    
+}
+#nailButton{
+    width: 100%;
+    background-color: white;
+    font-size: 3vh;
+    margin-top: 5vh;
+    height: 5vh;
+    border-radius: 10px;
+}
+.nailInput{
+    width: 100%;
+    height: 4vh;
+    border-radius: 10px;
+    font-size: 3vh;
+}
+.nailError{
+    margin:0 auto;
+    padding: 0 auto;
+    color:rgb(255, 26, 26);
+    width: 100%;
+    font-size: 2vh;
+}

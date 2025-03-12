@@ -1,0 +1,148 @@
+
+.layoutContainer{
+    padding:20px;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    grid-gap:20px;
+}
+/*subject*/
+.subjectContainer ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subject{
+    list-style: none;
+    font-size: 3vh;
+    line-height: 60px;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    margin: 0 10px;
+}
+.buttonSubject{
+    background-color: white;
+    border-radius: 10px;
+}
+/*subject*/
+
+.classContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #333;
+    grid-auto-rows: minmax(250px,auto);
+    border-radius: 10px; 
+    max-height: 150px;
+    overflow-y: auto;
+}
+/* .gameContainer{
+    background-color:#333;
+    border-radius: 5px;
+} */
+.classContainer::-webkit-scrollbar-track {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #676767;
+}
+
+.classContainer::-webkit-scrollbar {
+    width: 6px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: black;
+}
+
+.classContainer::-webkit-scrollbar-thumb {
+    background-color: #919191;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.buttonClass{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2vh;
+}
+.timeContainer{
+    background-color:#333;
+    grid-column-start: 1;
+    grid-column-end:4;
+    border-radius: 10px; 
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    color:white;
+    font-size: 2vh;
+}
+.displayContainer{
+    background-color:#333;
+    grid-column-start: 1;
+    grid-column-end:3;
+    border-radius: 10px; 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    grid-auto-rows: minmax(250px,auto);
+}
+.homeworkContainer{
+    background-color:#333;
+    border-radius: 10px; 
+    grid-auto-rows: minmax(250px,auto);
+}
+.playGameCountContainer{
+    background-color:#333;
+    border-radius: 10px; 
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-auto-rows: minmax(250px,auto);
+}
+
+@media (max-width:650px) {
+    
+    .layoutContainer{
+        padding:20px;
+        display:flex;
+        flex-direction:column;
+        
+    }
+    /*subject*/
+    .subjectContainer{
+        height: 50px;
+        border-radius: 5px;
+    }
+    .subject{
+        list-style: none;
+        font-size: 2vh;
+        line-height: 30px;
+        text-align: center;
+        width: 100%;
+        padding-top: 10px;
+        margin: 0 5px;
+    }
+    .buttonSubject{
+        border-radius: 5px;
+    }
+    /*subject*/
+    .classContainer{
+        border-radius: 5px;
+    }
+    .displayContainer{
+        background-color:#333;
+        border-radius: 10px; 
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        grid-auto-rows: minmax(250px,auto);
+    }
+   
+}

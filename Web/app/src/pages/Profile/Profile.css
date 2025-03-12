@@ -1,0 +1,170 @@
+.profileBack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(150, 150, 150);
+    width: 100%;
+    height: 95vh;
+}
+.profileCard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10vh 1fr;
+    justify-items: center;
+    align-items:center;
+    background-color: rgb(255, 255, 255);
+    width:75vw;
+    height:70vh;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px rgba(37, 37, 37, 0.2);
+    font-size: 3vh;
+    
+}
+
+.info{
+    padding: 0 auto;
+    margin: 0 auto;
+    padding-left: 20px ;
+}
+
+.infoTbody{
+    padding: 0 auto;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 10px;
+}
+
+.titleCard{
+    display: flex;
+    flex-direction:column;
+    justify-items:space-between;
+    align-items:center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 100%;
+    height: 100%;
+    padding-top: 4vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(32, 32, 35);
+    color: white;
+}
+.logout{
+    display: flex;
+    flex-direction:column;
+    justify-items:space-between;
+    align-items:center;
+    grid-column-start:1;
+    grid-column-end:3;
+    width: 25%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgb(32, 32, 35);
+    color: white;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+.subjectButton{
+    display: flex;
+    flex-direction:column;
+    justify-items:space-between;
+    align-items:center;
+    color: white;
+    background-color: rgb(32, 32, 35);
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 300;
+    padding:5px 0;
+}
+button{
+    width: 12vh; 
+    height: 3vh;
+}
+.teachClass{
+    display: flex;
+    justify-items:space-between;
+    align-items:center;
+}
+.updateIcon{
+    text-align: center;
+}
+
+@media (max-width:650px){
+    .titleCard{
+        height: 10%;
+        padding: 15px;
+    }
+    .profileBack{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(150, 150, 150);
+        width: 100%;
+        height: 95vh;
+    }
+    .profileCard{
+        display: flex;
+        flex-direction:column;
+        justify-content:space-between;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        width:75vw;
+        
+        border-radius: 20px;
+        box-shadow: 10px 5px 5px rgba(37, 37, 37, 0.2);
+        font-size: 5vw;
+    }
+    .info{
+        margin:0;
+        padding:0;
+        padding-top:10px;
+        display: flex; 
+        align-items:center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        font-size: 2vh;
+    }
+    
+    .teachClass{
+        font-size: 2vh;
+        height: 100vh;
+    }
+    .subjectButton{
+        font-size: 2vh;
+        display: flex;
+        flex-direction:column;
+        justify-items:space-between;
+        align-items:center;
+        color: white;
+        background-color: rgb(32, 32, 35);
+        border-radius: 5px;
+        font-weight: 300;
+        padding:5px 0;
+    }
+    .logout{
+        display: flex;
+        justify-items:space-between;
+        align-items:center;
+        width: 25%;
+        height: 10%;
+        border-radius: 20px;
+        background-color: rgb(32, 32, 35);
+        color: white;
+    }
+    .logout{
+        display: flex;
+        flex-direction:column;
+        justify-items:space-between;
+        align-items:center;
+        grid-column-start:1;
+        grid-column-end:3;
+        width: 25%;
+        border-radius: 20px;
+        background-color: rgb(32, 32, 35);
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+}
