@@ -152,7 +152,7 @@ sudo npm i -g pm2
 sudo pm2 start /var/www/140.127.xxx.xxx/nodeAPI/index.js
 ```
 
-- 完成以上四步應該可以於瀏覽器中輸入https://gamebook.ga，便可以看見登入畫面，帳號密碼為，a1083365@mail.nuk.edu.tw、123，學生遊戲端可以透過打開Gamebook資料夾中的LearnInGame.exe，遊戲端帳號密碼為，bb@gmail.com、yza0ev，若是不行則是因為資料庫連接過期，又或者註冊網域過期，可以透過原始程式碼修改後重新打包。
+- 完成以上四步應該可以於瀏覽器中輸入```https://gamebook.ga```，便可以看見登入畫面，帳號密碼為，```a1083365@mail.nuk.edu.tw```、```123```，學生遊戲端可以透過打開Gamebook資料夾中的LearnInGame.exe，遊戲端帳號密碼為，```bb@gmail.com```、```yza0ev```，若是不行則是因為資料庫連接過期，又或者註冊網域過期，可以透過原始程式碼修改後重新打包。
 
 # 主要流程（原始程式碼）
 
