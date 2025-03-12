@@ -29,7 +29,7 @@
   "_id": {
     "$oid": "6325cbe524bab86e8004317b"
   },
-  "userName": "陳楨宜",
+  "userName": "III",
   "email": "a1083359@mail.nuk.edu.tw",
   "password": "Aaaa1234",
   "school": "高雄大學",
@@ -48,7 +48,7 @@
   "_id": {
     "$oid": "6395a333a90f67f4a456c87f"
   },
-  "userName": "郭子銘",
+  "userName": "KUO",
   "email": "bb@gmail.com",
   "password": "Aaaa1234",
   "school": "高雄大學",
@@ -67,7 +67,7 @@
   "_id": {
     "$oid": "6395a4db97ff743060a77805"
   },
-  "userName": "王蘊禪",
+  "userName": "WWW",
   "email": "a1083360@mail.nuk.edu.tw",
   "password": "Az1234567",
   "school": "高雄大學",
