@@ -11,18 +11,26 @@ The content was writen in UTF-8 language: traditional chinese.
   - app
   - server
 
-GamebookClientBuild資料夾包含的檔案為Unity打包好的程式，可以直接執行透過LearnInGame.exe。
-**GamebookWebBuild：**
-	為React專案，打包後的成品。
-**LearnInGame：**
+## GamebookClientBuild
+
+資料夾包含的檔案為Unity打包好的程式，可以直接執行透過LearnInGame.exe。
+## GamebookWebBuild
+
+為React專案，打包後的成品。
+## LearnInGame
+
 Unity的專案資料夾，自行新增的檔案位於Assets中，其中程式碼的部分位於Script資料夾中，須至以下網址下載
 https://github.com/FatBoy001/Gamebook。
-**MangoData：**
+
+## MangoData
+
 裡面的Json檔案本次專案所使用的測試資料。
-**Web：**
+## Web
+
 資料夾分為app與server，app為前端，server為後端。
-app：為React專案，自行撰寫程式碼位於src資料夾中。
-server：node.js與express.js所構成的後端程式，主體為檔案名稱index.js，models資料夾用途為處理資料。
+
+- app：為React專案，自行撰寫程式碼位於src資料夾中。
+- server：node.js與express.js所構成的後端程式，主體為檔案名稱index.js，models資料夾用途為處理資料。
 
 將分為原始程式碼以及打包後的程式做不同的安裝步驟，須先完成打包完成之程式的流程。
 
@@ -144,7 +152,7 @@ sudo npm i -g pm2
 sudo pm2 start /var/www/140.127.xxx.xxx/nodeAPI/index.js
 ```
 
-- 完成以上四步應該可以於瀏覽器中輸入https://gamebook.ga便可以看見登入畫面，帳號密碼為，a1083365@mail.nuk.edu.tw、123，學生遊戲端可以透過打開Gamebook資料夾中的LearnInGame.exe，遊戲端帳號密碼為，bb@gmail.com、yza0ev，若是不行則是因為資料庫連接過期，又或者註冊網域過期，可以透過原始程式碼修改後重新打包。
+- 完成以上四步應該可以於瀏覽器中輸入https://gamebook.ga，便可以看見登入畫面，帳號密碼為，a1083365@mail.nuk.edu.tw、123，學生遊戲端可以透過打開Gamebook資料夾中的LearnInGame.exe，遊戲端帳號密碼為，bb@gmail.com、yza0ev，若是不行則是因為資料庫連接過期，又或者註冊網域過期，可以透過原始程式碼修改後重新打包。
 
 # 主要流程（原始程式碼）
 
